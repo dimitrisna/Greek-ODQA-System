@@ -22,7 +22,7 @@ Use the Notebooks of the folder Reader_DPR_training to train your own Reader and
 
 To download the necessary Wikipedia data for the system, use the notebook Wikipedia_data_download.ipynb
 
-## Installation the Open-Domain Question Answering System
+## Installation of the Open-Domain Question Answering System
 
 Before the installation, in the file  rest_api/pipeline/pipelines.haystack-pipeline.yml you can make the choise of the prefered retriever type.
 To import the Wikipedia data in the project run the following commands
