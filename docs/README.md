@@ -38,5 +38,5 @@ sudo docker-compose up
 ```
 
 The application UI can be found by navigating to http://localhost:8501
-
+![Screenshot](app_screen.png)
 The System is based on Haystack https://github.com/deepset-ai/haystack
