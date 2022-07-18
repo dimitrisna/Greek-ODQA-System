@@ -8,11 +8,13 @@ components:    # define all the building-blocks for Pipeline
     params:
       host: localhost
   - name: Retriever
+    #choose the type of retriever by uncommenting the proper type line
     #type: DensePassageRetriever
     type: BM25Retriever
     params:
       document_store: DocumentStore    # params can reference other components defined in the YAML
       top_k: 20
+      #uncomment the 2 lines below if you choose dpr retriever
       #query_embedding_model: Danastos/dpr_query_el_1
       #passage_embedding_model: Danastos/dpr_passage_el_1
   - name: Reader       # custom-name for the component; helpful for visualization & debugging
