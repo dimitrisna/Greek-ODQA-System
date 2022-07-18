@@ -36,6 +36,7 @@ To install the ODQA System, run the following commands
 ```
 sudo docker-compose pull
 sudo docker-compose up
+
 ```
 
 The application UI can be found by navigating to http://localhost:8501
