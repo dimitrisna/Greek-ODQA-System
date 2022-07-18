@@ -34,9 +34,7 @@ Based on the type of retriever you prefer, execute the script write_docs_bm25.py
 
 To install the ODQA System, run the following commands
 ```
-sudo docker-compose pull
 sudo docker-compose up
-
 ```
 
 The application UI can be found by navigating to http://localhost:8501
