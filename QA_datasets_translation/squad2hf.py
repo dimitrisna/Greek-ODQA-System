@@ -1,5 +1,5 @@
 import json
-
+#convert a QA datataset from SQuAD-like format to HuggingFace format
 input_filename = "PATH_TO_SQUAD-LIKE_DATASET"
 output_filename = "PATH_TO_HF_TYPE_DATASET"
 
