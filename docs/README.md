@@ -12,6 +12,6 @@ Use the scripts of the folder QA_dataset_translation to translate SQuAD-like QA 
 Use the Notebooks of the folder Reader_DPR_training to train your own Reader and Retriever Models
 
 ##
-```python
-print(1)
+```
+cd git
 ```
