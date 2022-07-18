@@ -1,5 +1,5 @@
 
-## Greek ODQA System
+#### Greek ODQA System
 
 In the current project, an attempt has been made to design and develop a Greek Open-Domain Question Answering System.
 ''' cd '''
