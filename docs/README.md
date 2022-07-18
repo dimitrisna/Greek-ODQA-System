@@ -29,7 +29,7 @@ To import the Wikipedia data in the project run the following commands
 ```
 docker-compose pull
 docker-compose up -d elasticsearch
-'''
+```
 Based on the type of retriever you prefer, execute the script write_docs_bm25.py or write_docs_dpr.py to import the Wikipedia data to the DocumentStore.
 
 To install the ODQA System, run the following commands
